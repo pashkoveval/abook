@@ -1,15 +1,116 @@
 <template>
-	<view-body class="error-404">
-		<div>404</div>
-	</view-body>
+	<v-card max-width="448" max-height="800" class="mx-auto mt-1">
+		<perfect-scrollbar>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+			<div>404</div>
+		</perfect-scrollbar>
+	</v-card>
 </template>
 
 <script setup lang="ts"></script>
 
 <style lang="scss" scoped>
-	.error {
-		&-404 {
-			background: #000;
-		}
+	.ps {
+		max-height: inherit;
 	}
 </style>

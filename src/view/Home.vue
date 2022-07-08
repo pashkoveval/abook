@@ -1,23 +1,7 @@
 <template>
-	<view-body>
-		<div>home</div>
-	</view-body>
+	<div>home</div>
 </template>
 
-<script>
-	import { nextTick } from 'vue';
-	export default {
-		data() {
-			return {
-				show: false,
-			};
-		},
-		mounted() {
-			nextTick(() => {
-				this.show = true;
-			});
-		},
-	};
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>

@@ -1,39 +1,31 @@
 <script setup lang="ts"></script>
 
 <template>
-	<div class="app-header pt-5">
-		<div class="app-header_logo">
-			<app-link to="#/">
+	<v-app-bar color="primary" density="compact">
+		<template v-slot:image>
+			<v-img
+				gradient="to top right, rgba(19,84,122,.8), rgba(128,208,199,.8)"
+			></v-img>
+		</template>
+		<template v-slot:prepend>
+			<v-btn href="#/" replace :ripple="false">
 				<img
-					class="app-header_logo-img"
+					class="header_logo"
 					src="../../assets/imgs/logo.webp"
 					alt="Logo ABooks"
 				/>
-			</app-link>
-		</div>
-		<divider />
-		<app-link to="#/" text="Home" />
-		<app-link to="#/about" text="about" />
-		<app-link to="#/about2" text="about2" />
-		<app-link to="#/non-existent-path" text="Broken" />
-	</div>
+			</v-btn>
+		</template>
+
+		<v-btn href="#/" replace>Home</v-btn>
+		<v-btn href="#/about" replace>about</v-btn>
+		<v-btn href="#/about2" replace>about</v-btn>
+		<v-btn href="#/non-existent-path" replace>Broken</v-btn>
+	</v-app-bar>
 </template>
 
 <style lang="scss" scoped>
-	.app-header {
-		display: flex;
-		align-items: center;
-		height: 70px;
-		width: 100%;
-		padding: 8px;
-		overflow: hidden;
-		background: $second_green;
-		box-shadow: inset -1px 1px 1px $main_green, 1px 1px 10px $main_green;
-		&_logo {
-			height: 100%;
-			&-img {
-				max-height: 50px;
-			}
-		}
+	.header_logo {
+		max-height: 30px;
 	}
 </style>

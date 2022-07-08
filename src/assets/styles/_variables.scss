@@ -3,6 +3,10 @@
 $main_green: #417c4b;
 $second_green: #c1daa1;
 
+::-webkit-scrollbar {
+    width: 0px;
+}
+
 /* we will explain what these classes do next! */
 .v-enter-active,
 .v-leave-active {

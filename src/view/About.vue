@@ -1,7 +1,5 @@
 <template>
-	<view-body>
-		<div>about</div>
-	</view-body>
+	<div>about</div>
 </template>
 
 <script setup lang="ts"></script>

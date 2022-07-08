@@ -1,10 +1,23 @@
 <script setup lang="ts">
 	import appHeader from './components/Header/Header.vue';
+
+	import { ref, onMounted } from 'vue';
+	const show = ref(false);
+	const update = () => {
+		show.value = true;
+	};
+	onMounted(() => {
+		update();
+	});
 </script>
 
 <template>
-	<appHeader />
-	<router />
+	<v-app>
+		<appHeader />
+		<v-main>
+			<router />
+		</v-main>
+	</v-app>
 </template>
 
 <style lang="scss">
